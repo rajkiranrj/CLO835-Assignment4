@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+   name: rkrnarala
+   labels:
+     week: "week11"
+spec:
+  serviceAccountName: lab4
+  containers:
+  - name: ambassador
+    image: luksa/kubectl-proxy
